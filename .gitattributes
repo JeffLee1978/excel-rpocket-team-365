@@ -1,0 +1,13 @@
+# Configuration for git attributes
+yarn.lock linguist-generated
+
+*.md linguist-documentation
+public/** linguist-vendored
+
+src/*.ts linguist-detectable   
+*.gif binary
+vendor/* linguist-vendored
+dist/* linguist-vendored
+*.ts linguist-detectable
+*.svg text
+*.ico binary
